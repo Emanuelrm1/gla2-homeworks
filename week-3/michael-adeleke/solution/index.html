@@ -2,55 +2,64 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|Oswald:400,600" rel="stylesheet">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/main.css">
     <title>Startup Matchmaker</title>
-
   </head>
   <body>
     <header>
       <h1>Startup Matchmaker</h1>
       <nav>
-        <ul class="row">
-          <li class="column">
+        <ul class="row nav-lists">
+          <li class="column nav-links nav-bold">
             <a href="#">Find Developers
             </a>
           </li>
-          <li class="column">
+          <li class="column nav-links nav-bold">
             <a href="#">Find Designers
             </a>
           </li>
-          <li class="column">
+          <li class="column nav-links">
             <a href="#">How it works
             </a>
           </li>
-          <li class="column">
+          <li class="column nav-links">
             <a href="#">Our team
             </a>
           </li>
-          <li class="column">
+          <li class="column nav-links">
             <a href="#">Blog
             </a>
           </li>
-
         </ul>
       </nav>
     </header>
     <main>
-      <div class="row">
-        <blockquote cite="http://" class="column">
-          Because two brains tastes are better than one.
+      <div class="row quote-container">
+        <blockquote cite="http://" class="column quote-content">
+          Because two brains
+          <span class="text-linethrough">tastes</span>
+        <span
+         class="text-underline">are</span> better than one.
         </blockquote>
       </div>
-      <div class="row">
-          <aside class="column">
-              <h2>Meet your Match!</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a href="#">Create a profile</a>
+      <div class="row meet-container bgimg">
+          <aside class="column meet-content">
+              <h2 class="meet-content-title">Meet your Match!</h2>
+              <p class="meet-content-paragraph">Have a great idea for a
+                product, but need help
+                making it a reality? We're here
+                to help. Startup Matchmaker
+                is the best place for designers
+                and developers to find each
+                other.
+              </p>
+              <a href="#" class="meet-content-button">Create a profile</a>
           </aside>
       </div>
       <section>
-        <ul class="row">
+        <ul class="row section-container">
           <li class="column">
             <h2>Title</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
@@ -69,7 +78,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer-container">
       <p>&copy 2018 Startup Matchmaker. Made in London at General Assembly. </p>
     </footer>
   </body>
