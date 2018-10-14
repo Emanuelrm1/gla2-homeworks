@@ -114,7 +114,10 @@ aside a {
 }
 
 .img {
-  
+  background-image: url(../starter_code/startup_matchmaker/images/coworking.jpg);
+  background-repeat: no-no-repeat;
+  background-size: cover;
+   background-position: center;
 }
 
 
