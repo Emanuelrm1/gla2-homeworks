@@ -14,6 +14,10 @@
   flex-shrink: 1;
 }
 
+body {
+  margin: 0;
+}
+
 li {
     list-style-type: none;
 }
@@ -53,6 +57,7 @@ blockquote {
 }
 
 .hero {
+  flex-basis: 30%;
   height: 700px;
   background-image: url("../../starter_code/startup_matchmaker/images/coworking.jpg");
   background-repeat: no-repeat;
@@ -60,12 +65,19 @@ blockquote {
 }
 
 aside {
-  width: 250px;
   padding: 30px;
   background-color: rgba(225, 225, 225, 0.5);
   border-style: solid;
   border-color: black;
   font-family: arial;
+}
+
+aside h2 {
+  font-size: 30px;
+}
+
+aside p {
+  font-size: 20px;
 }
 
 aside :nth-child(3) {
@@ -74,9 +86,17 @@ aside :nth-child(3) {
   background-color: yellow;
   padding: 10px;
   border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+
+section ul li {
+  padding: 40px;
 }
 
 footer {
+  align-items: center;
   background-color: black;
   color: white;
+  height: 60px;
 }
