@@ -33,14 +33,16 @@ h1 {
   font-size: 50px;
 }
 
-ul {
+nav ul {
+  display: flex;
+  align-content: flex-end;
 }
 
 nav ul li a {
-  align-items: flex-end;
   color: white;
   text-decoration: none;
   font-family: arial;
+  align-items: flex-end;
 }
 
 .quote {
@@ -91,7 +93,7 @@ aside :nth-child(3) {
 }
 
 section ul li {
-  padding: 40px;
+  padding: 55px;
 }
 
 footer {
