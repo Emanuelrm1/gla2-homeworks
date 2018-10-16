@@ -22,6 +22,7 @@ font-family: 'Crimson Text', serif;
 
 /* Header */
 header {
+  height: 25%;
   background-color: #020202;
   border-bottom: 4px solid #f9de09;
 }
@@ -32,20 +33,15 @@ header > h1 {
 }
 header > nav {
   margin: 20px auto;
+  margin-left: 170px;
   font-family: 'Oswald', sans-serif;
 }
-
-header nav ul {
-  display: flex;
-  justify-content: space-between;
-}
-
 header nav ul li {
   list-style-type: none;
 }
 .nav-lists{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 .nav-links > a{
   text-decoration: none;
@@ -73,13 +69,13 @@ header nav ul li {
 /* Quote container */
  .quote-container{
    background-color: #ccc;
-   height: 10vh;
+   height: 15vh;
  }
 .quote-content{
   font-weight: 600;
   font-size: 40px;
   font-style: italic;
-  padding: 20px;
+  padding: 35px;
   text-align: center;
 }
 .text-linethrough {
@@ -113,6 +109,7 @@ header nav ul li {
 .meet-content {
   height: 70vh;
   max-width: 55vh;
+  border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 1px 1px 3px rgba(50, 50, 50, 0.4);
   margin: 40px;
@@ -201,5 +198,5 @@ header nav ul li {
   padding: 40px;
   color: #fff;
   font-family: 'open sans', sans-serif;
-  font-size: 18px;
+  font-size:
 }
