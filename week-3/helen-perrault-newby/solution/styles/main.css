@@ -72,6 +72,8 @@ blockquote {
   text-align: center;
   font-style: italic;
   font-size: 24px;
+  margin: 0;
+  padding: 20px;
 }
 
 .strike {
