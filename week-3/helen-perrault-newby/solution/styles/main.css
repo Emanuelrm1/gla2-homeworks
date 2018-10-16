@@ -23,73 +23,105 @@ li {
 }
 
 header {
-  background: black;
-  height: 200px;
+  background: rgb(0 0 0);
+  padding: 20px;
+  border-bottom: 4px;
+  border-color: rgb(254, 247, 44);
 }
 
 h1 {
-  color: yellow;
-  padding: 30px;
+  font-family: serif;
+  color: rgb(254, 247, 44);
+  padding: 20px;
   font-size: 50px;
+  margin-top: 0;
 }
 
 nav ul {
-  display: flex;
-  align-content: flex-end;
+  padding: 0;
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(255 255 255);
   text-decoration: none;
   font-family: arial;
   align-items: flex-end;
 }
 
+ nav ul li:nth-of-type(1) {
+   font-weight: bold;
+ }
+
+ nav ul li:nth-of-type(2) {
+   font-weight: bold;
+ }
+
+ .nav .column {
+   max-width: 15%
+ }
+
+ .nav {
+   justify-content: flex-end;
+ }
+
 .quote {
-  background-color: grey;
-  height: 120px;
-  display: flex;
+  background-color: rgb(190 190 190);
 }
 
 blockquote {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-style: italic;
-  font-size: 40px;
+  font-size: 24px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: rgb(135, 135, 135);
+}
+
+.underline {
+  border-bottom: 2px solid yellow;
 }
 
 .hero {
-  flex-basis: 30%;
+  padding: 20px;
+  justify-content: flex-end;
   height: 700px;
   background-image: url("../../starter_code/startup_matchmaker/images/coworking.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 aside {
-  padding: 30px;
-  background-color: rgba(225, 225, 225, 0.5);
-  border-style: solid;
-  border-color: black;
+  max-width: 40%;
+  background-color: rgba(225, 225, 225, 0.6);
+  padding: 0 25px;
+  border-radius: 2px;
   font-family: arial;
+  box-shadow: 0 0 5px 0px rgb(0 0 0);
 }
 
 aside h2 {
   font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 aside p {
   font-size: 20px;
+  line-height: 1.4;
 }
 
 aside :nth-child(3) {
   color: black;
   text-decoration: none;
-  background-color: yellow;
+  background-color: rgb(254, 247, 44);
   padding: 10px;
+  margin-bottom: 20px;
   border-radius: 5px;
   display: block;
   text-align: center;
+  box-shadow: 0px 3px 3px rgb(196, 192, 9);
 }
 
 section ul li {
