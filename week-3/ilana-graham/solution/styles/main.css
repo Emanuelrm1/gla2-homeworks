@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.column {
+  flex-basis: 100%;
+  flex-grow:1 ;
+  flex-shrink: 1;
+  list-style-type: none;
+
+}
+
+header {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: yellow;
+  padding-left: 40px;
+  margin-top: -15px;
+}
+
+a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content:flex-end;
+  font-family: sans-serif;
+  margin-right: 20px;
+}
+
+blockquote {
+  background-color: lightgrey;
+  font-style: italic;
+  font-size: 30px;
+  padding: 20px;
+  margin: auto;
+  margin-top: auto;
+  border-top: 5px solid yellow;
+  text-align: center;
+
+}
+
+header nav ul li:nth-of-type(1) {
+  font-weight: bold;
+}
+header nav ul li:nth-of-type(2) {
+  font-weight: bold;
+}
+
+.hero {
+  justify-content: flex-end;
+  background-image: url("../../starter_code/startup_matchmaker/images/coworking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+
+
+}
+aside {
+
+  /* text-align: right; */
+  border: 2px solid black;
+  color: black;
+  height: 400px;
+  width: 20px;
+  font-size: 20px;
+  /* align-items: flex-end; */
+  margin: 20px;
+  padding: 40px;
+  flex-shrink: 10px;
+  background-color: rgba(255,255,255,0.6);
+  font-family: sans-serif;
+  box-shadow: 0px 3px 3px;
+
+  }
+
+.hero-statement {
+  max-width: 25%;
+  border: 1px solid #ccc;
+}
+
+
+main div aside a {
+  color: black;
+  background-color: yellow;
+  align: center;
+  width: 270px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  padding-right: 40px;
+}
+
+s {
+  color: grey;
+}
+
+span {
+  text-decoration: underline yellow;
+}
+h2 {
+
+   font-size: 25px;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+
+section {
+
+text-align: center;
+margin: 10px;
+font-size: 20px;
+font-family: sans-serif;
+
+}
+
+.lower {
+  border-right: 1px solid lightgrey;
+  padding-right: 30px;
+}
+
+main section ul li a {
+
+  background-color: lightgrey;
+  width: 265px;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 50px;
+  border-radius: 7px;
+
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+}
