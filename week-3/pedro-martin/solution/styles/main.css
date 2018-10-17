@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
- /* Colours */
+/* Colours */
 /* yellow rgb(254, 247, 44); */
 
 /* Layout */
@@ -22,22 +22,27 @@
 
 header {
   padding: 20px;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
   border-bottom: 4px solid rgb(254, 247, 44);
 }
 
 h1 {
   color: rgb(254, 247, 44);
   margin-top: 0;
+  font-size: 2.5em;
 }
 
 nav ul {
   padding: 0;
   list-style: none;
+  font-size: 1.1em;
+  text-align: end;
+  justify-content: space-between;
+  margin-left: 10%;
 }
 
 nav ul li a {
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -53,12 +58,8 @@ nav ul li:nth-of-type(2) a {
   justify-content: flex-end;
 }
 
-.nav .column {
-  max-width: 15%;
-}
-
 .quote {
-  background-color: rgb(190,190,190);
+  background-color: rgb(190, 190, 190);
 }
 
 blockquote {
@@ -70,7 +71,7 @@ blockquote {
 
 .strike {
   text-decoration: line-through;
-  color: rgb(135,135,135);
+  color: rgb(135, 135, 135);
 }
 
 .underline {
@@ -91,7 +92,7 @@ blockquote {
   max-width: 33%;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 0 25px 25px;
-  box-shadow: 0 0 5px 0px rgb(0,0,0);
+  box-shadow: 0 0 5px 0px rgb(0, 0, 0);
 }
 
 .hero aside h2 {
@@ -109,10 +110,52 @@ blockquote {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  color: rgb(0,0,0);
+  color: rgb(0, 0, 0);
   font-weight: 600;
-  background-color: rgb(254, 247, 44);;
+  background-color: rgb(254, 247, 44);
   padding: 12px;
   border-radius: 5px;
-  box-shadow: 0px 3px 3px rgb(196, 192,9);
+  box-shadow: 0px 3px 3px rgb(196, 192, 9);
+  font-family: sans-serif;
+}
+
+.cta {
+  list-style: none;
+  padding: 20px 0 0;
+  margin: 0;
+}
+
+.cta .column {
+  padding: 20px;
+}
+
+.cta h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cta p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.cta .column:nth-of-type(2) {
+  border-right: 1px solid rgb(135, 135, 135);
+  border-left: 1px solid rgb(135, 135, 135);
+}
+
+.cta .button {
+  background-color: rgb(190, 190, 190);
+  box-shadow: 0px 3px 3px rgb(135, 135, 135);
+}
+
+footer {
+  font-family: sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+footer span {
+  color: rgb(255, 0, 0);
 }
